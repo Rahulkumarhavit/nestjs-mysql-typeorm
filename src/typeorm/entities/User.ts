@@ -30,7 +30,6 @@ export class User {
   @JoinColumn()
   profile: Profile;
 
-
-  @OneToMany(() => Post,(post) => post.user)
-  posts:Post[];
+  @OneToMany(() => Post, (post) => post.user)
+  posts: Post[];
 }

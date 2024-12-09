@@ -13,7 +13,7 @@ import { Post } from './typeorm/entities/Post';
     host:'localhost',
     port:3306,
     username:"root",
-    password:"Rahul@123",
+    password:"",
     database:'nestjs_mysql',
     entities:[User,  Profile,Post],
     synchronize:true,
